@@ -111,12 +111,14 @@ class TileResult extends StatelessWidget {
                   Radius.circular(20),
                 ),
               ),
-              child: Text(
-                'NOT POSSIBLE',
-                style: TextStyle(
-                  color: const Color(0xFFFF0000),
-                  fontSize: 50.0,
-                  fontWeight: FontWeight.bold,
+              child: FittedBox(
+                child: Text(
+                  ' NOT POSSIBLE ',
+                  style: TextStyle(
+                    color: const Color(0xFFFF0000),
+                    fontSize: 50.0,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ),
