@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635973066801",
+    "project_id": "guesser-af408",
+    "storage_bucket": "guesser-af408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635973066801:android:944103f14daf0e4c9cf510",
+        "android_client_info": {
+          "package_name": "com.linchoplus.birthday_guesser_plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635973066801-opb4t8748vmqjdtt14t12u4qc1o128u6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI3A2uI3hF6x7fEUuLDxtRi-An00zH8D8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635973066801-opb4t8748vmqjdtt14t12u4qc1o128u6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

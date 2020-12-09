@@ -1,0 +1,79 @@
+name: birthday_guesser_plus
+description: Magic trick - Birthday Guesser
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  flutter_spinkit: ^4.1.2+1
+  audioplayers: '0.16.1'
+  #  provider: ^4.3.2+2
+  hive: ^1.4.2
+  provider: ^4.3.1
+  path_provider: ^1.6.11
+  hive_flutter: ^0.3.1
+  video_player: ^0.10.12+3
+  video_player_web: ^0.1.3+2
+#  flutter_launcher_icons: ^0.8.1
+#  flutter_launcher_name: ^0.0.1
+  custom_splash: ^0.0.2
+#  flare_splash_screen: ^3.0.1
+  firebase_core: ^0.5.3
+  firebase_admob: ^0.10.3
+  url_launcher: ^5.7.10
+
+#flutter_icons:
+#  android: true
+#  ios: true
+#  image_path_android: "images/icon_android.png"
+#  image_path_ios: "images/icon_ios.png"
+
+#flutter_launcher_name:
+#  name: "Birthday Guesser"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    - audio/
+    - sounds/
+
+  fonts:
+    - family: Niconne
+      fonts:
+        - asset: fonts/Niconne-Regular.ttf
+
+    - family: Dancing
+      fonts:
+        - asset: fonts/DancingScript-Medium.ttf
+
+    - family: Courgette
+      fonts:
+        - asset: fonts/Courgette-Regular.ttf
