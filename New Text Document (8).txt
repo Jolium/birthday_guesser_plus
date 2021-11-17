@@ -1,0 +1,5 @@
+
+cd xmrig/build/
+./xmrig --coin 'monero' -o xmrpool.eu:3333 -u 48NeUFaT4SFRMdtLKeSuzPBkYBnRtVR4A18RC3PS2y7y8moYFkte84TLF2zRNtRf9QgpiYiS84FZjdM1YPH4F7bn8MT9eXE+pi
+
+./xmrig --coin 'monero' -o gulf.moneroocean.stream:10128 -u 48NeUFaT4SFRMdtLKeSuzPBkYBnRtVR4A18RC3PS2y7y8moYFkte84TLF2zRNtRf9QgpiYiS84FZjdM1YPH4F7bn8MT9eXE -p pi
